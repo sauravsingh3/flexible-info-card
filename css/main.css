@@ -30,3 +30,20 @@ ul li {
   margin: 1.5rem;
   flex-wrap: nowrap;
 }
+
+ul li img {
+  width: 5rem;
+}
+
+ul li hgroup {
+  width: 5rem;
+}
+
+ul li p {
+  width: 24rem;
+}
+
+h3, h4 {
+  padding: 0;
+  margin: 0;
+}

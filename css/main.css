@@ -7,3 +7,26 @@ html {
   font-family: "Open Sans" , sans-serif;
   line-height: 1.5;
 }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  background-color: #ccc;
+}
+
+h2 {
+  text-align: center;
+  margin: 1.5rem;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem;
+  flex-wrap: nowrap;
+}
